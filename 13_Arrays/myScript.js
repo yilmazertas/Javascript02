@@ -102,3 +102,104 @@
 //     if(x>y){return 1} }))
 
 // alfabetik type göre
+
+
+
+// Array itaretion(döngüler)
+
+// const numbers =[45,4,9,16,25]
+// numbers.forEach(
+//     function myFunction(value,index,array){
+//         console.log(`${array} dizisi`)
+//         console.log(`${index} numaralı eleman ${value}`)
+
+//     }
+// )
+
+// const numbers =[45,4,9,16,25]
+// numbers.forEach(
+//     function myFunction(a,b){
+//         let deger=b;
+//         console.log(deger)
+//     //  console.log(`${b} index ${a} vulue`)   
+
+//     }
+// )
+
+// const numbers1=[45,4,9,16,25]
+// const numbers2=numbers1.map(myFunction);
+
+// function myFunction(value,index,array){
+// return value*2;
+// }
+// console.log(numbers2)
+
+
+// const numbers1=[45,4,9,16,25]
+// const numbers2=numbers1.map(myFunction);
+
+// function myFunction(value,index,array){
+// return value*index;
+// }
+// console.log(numbers2)
+
+
+// const numbers1=[45,4,9,16,25]
+// const numbers2=numbers1.map(myFunction);
+
+// function myFunction(value,index,array){
+// return value+6;
+// }
+// console.log(numbers2)
+
+
+// const number=[45,4,9,16,25]
+// const over18=number.filter(myFunction)
+
+// function myFunction(value,index,array){
+// return value>18
+// }
+// console.log(over18)
+
+// const fruits=["Apple","Orange","Kivi","Mango"]
+//      let position=fruits.indexOf("Apple")+1
+//      console.log(position)
+//      let position1=fruits.indexOf("aple")
+//      console.log(position1)
+
+//      if(fruits.indexOf("apple") <0 )
+//      {
+//         console.log("böyle bir eleman yoktutr")
+//      }
+
+// const numbers=[4,9,16,25,29]
+// let first=numbers.find(myFunction)
+
+// function myFunction (value,index,array){
+//     return value>18
+// }
+// console.log(first)
+
+// const numbers=[4,9,16,25,29]
+// let first=numbers.findIndex(myFunction)
+
+// function myFunction (value,index,array){
+//     return value>18
+// }
+// console.log(first)
+
+// const array=Array.from("t   üm string dizisi çevrilecek")
+// console.log(array)
+
+// const fruits=["Banana","Orange","Apple","Mango"]
+// console.log(fruits.includes("Mangos"))
+//   if(fruits.includes("Mangos"))
+// {
+//     console.log("bu eleman dizide bulunmaktadır")
+// }
+
+// const cars=["volvo","bmv"]
+// cars[0]="toyota"
+// cars.push("audi")
+// car=["toyota","fiat"] 
+// bu eklemeyi yapamıyoruz
