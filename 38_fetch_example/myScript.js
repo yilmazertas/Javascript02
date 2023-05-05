@@ -6,26 +6,26 @@
 // console.log(car2)
 
 // const person={
-//     name:"mustaf",
+//     name:"mustafa",
 //     age:38,
 //     location:"tukey",
-//     like:"hamburger"
+//     like:"hamburger",
 // }
 // const {name:name1,age}=person
 // console.log(name1)
 // console.log(age)
 
 
-// const vehicleOne={
-//     brand:"ford",
-//     model:"mustang",
-//     type:"car",
-//     year:2021,
-//     color:"red"
+const vehicleOne={
+    brand:"ford",
+    model:"mustang",
+    type:"car",
+    year:2021,
+    color:"red"
 
-// }
-// function myVehicle2({type,color,brand,model}){
-//     const message="my"    + type  +    "  is a  " + color + " " + brand  + " "  + model + "."
-//     console.log(message)
-// }
-// myVehicle2(vehicleOne)
+}
+function myVehicle2({type,color,brand,model}){
+    const message= " my "      +   type  +    "  is a  " + color + " " + brand  + " "  + model + "."
+    console.log(message)
+}
+myVehicle2(vehicleOne)
