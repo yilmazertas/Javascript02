@@ -1,20 +1,27 @@
+// kaçış karekteri
 // let text="bu bir \"extra\" stringdir"
 // console.log(text)
 // let text2="istersek\t bir tab boşluk bırakabiliriz.istersek\n yeni satıra da geçebiliriz"
 // console.log(text2)
+
 // let text3="bu birinci metindir" +
 // "bu ikinci metindir"
 // console.log(text3)
+
 // let text="ASFANDIRAM"
 // let length=text.length
 // console.log(length)
+
 
 // slice (başlangıçPozisyonu,bitspozisyonu-bitiş dahildeğil )
 // let text="Apple, Banana, Kivi"
 // let part=text.slice(7,13)
 // console.log(part)
+
 // let part2=text.slice(7)
 // console.log(part2)
+
+// bir tekxtin birebir aynımkopyasını nasıl elde edreiz
 // let part3=text.slice(0)
 // console.log(part3)
 // let part4=text.slice(-14)
@@ -27,15 +34,14 @@
 // console.log(part)
 // // substring negatif ifadeleri sıfır olarak kabul eder.
 
-
 // let part2=text.substring(-5)
 // console.log(part2)
 
-// Substr(start,length)
 
-// let text="Apple, Banana, Kivi Struberrrri"
-// let part=text.substr(19,4)
-// console.log(part)
+// Substr(start,length)
+let text="Apple, Banana, Kivi Struberrrri"
+let part=text.substr(7,3)
+console.log(part)
 
 
 // let text ="Seni SEVİYORUM seviyorum";
